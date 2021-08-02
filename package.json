@@ -1,0 +1,26 @@
+{
+  "name": "npm-cli-package",
+  "version": "1.0.0",
+  "description": "NPM CLI 工具的发布和使用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joyee/npm-cli-package.git"
+  },
+  "keywords": [
+    "npm",
+    "cli"
+  ],
+  "author": "xiaofengzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joyee/npm-cli-package/issues"
+  },
+  "homepage": "https://github.com/Joyee/npm-cli-package#readme",
+  "bin": {
+    "npm-cli-package": "src/index.js"
+  }
+}
